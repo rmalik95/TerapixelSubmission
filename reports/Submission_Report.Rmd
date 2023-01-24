@@ -1,0 +1,23 @@
+---
+title: "Terapixel Submission Report"
+author: "Rishabh Malik (220512619)"
+output: pdf_document
+date: "2022-12-15"
+fontsize: "12pt"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir= normalizePath('..'))
+```
+
+```{r ProjectTemplate, include=FALSE}
+library(ProjectTemplate)
+load.project()
+```
+
+```{r EDA, include = FALSE}
+source('./src/eda.R')
+```
+
+## Introduction
